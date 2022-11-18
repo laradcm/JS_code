@@ -29,6 +29,5 @@ function populateRandomColor(arr , length){
 
 function getRadomNum(min, max){
 
-    return Math.floor(Math.random()*max + min);
-    
+    return Math.floor(Math.random()*(max - min)) + min;    
  }

@@ -59,9 +59,7 @@ Global Styles
 ===============
 */
 
-*,
-::after,
-::before {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -171,7 +169,7 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-.nav-center h4 {
+.nav-center h3 {
   margin-bottom: 0;
   color: var(--clr-primary-5);
 }
