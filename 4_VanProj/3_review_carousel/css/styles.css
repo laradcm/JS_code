@@ -68,8 +68,8 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-3);
-  color: var(--clr-grey-1);
+  background: var(--clr-grey-4);
+  color: var(--clr-grey-7);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -216,7 +216,7 @@ main {
   max-width: var(--fixed-width);
 }
 .review {
-  background: var(--clr-white);
+  background: var(--clr-grey-9);
   padding: 1.5rem 2rem;
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
@@ -268,8 +268,9 @@ main {
   right: -0.5rem;
   border-radius: 50%;
 }
-#author {
+#name {
   margin-bottom: 0.25rem;
+  color: var(--clr-primary-4);
 }
 #job {
   margin-bottom: 0.5rem;
@@ -277,7 +278,7 @@ main {
   color: var(--clr-primary-5);
   font-size: 0.85rem;
 }
-#info {
+#text {
   margin-bottom: 0.75rem;
 }
 .prev-btn,
